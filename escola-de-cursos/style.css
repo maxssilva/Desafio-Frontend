@@ -1,0 +1,196 @@
+body {
+  align-content: center;
+  background: linear-gradient(
+    13deg,
+    rgba(0, 168, 255, 0.28) 0%,
+    rgba(58, 96, 52, 0) 46%,
+    rgba(0, 31, 255, 0.43) 100%
+  );
+  background-size: cover;
+}
+.bloco-conteudo {
+  width: 1065px;
+  height: 690px;
+  position: relative;
+  margin-top: 108px;
+  margin-bottom: 108px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #4169e1;
+  border-radius: 30px;
+
+  background: #66c2fc;
+  display: flex;
+}
+.menu-esquerdo {
+  width: 180px;
+  height: 690px;
+  background: #c4c4ba;
+
+  background: #fff;
+
+  box-sizing: border-box;
+  border-radius: 30px 0 0 30px;
+  display: inline-grid;
+  align-content: center;
+  justify-items: center;
+}
+.nome-icone {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.icons {
+  width: 30px;
+  height: 30px;
+}
+.nome {
+  font-size: 18px;
+  font-weight: bold;
+  color: #4169e1;
+  padding-left: 8px;
+}
+.botao {
+  padding-top: 30px;
+}
+.botao-inscreva {
+  background-color: #4169e1;
+  color: #fff;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 8px;
+  padding-top: 10px;
+}
+
+.navegacao {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.opcoes-lista {
+  font-size: 14px;
+  color: #696969;
+  text-align: left;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+.icone-lista {
+  width: 20px;
+  height: 20px;
+  padding-right: 10px;
+}
+.rodape-menu-esquerdo {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-content: flex-start;
+  background: #fff;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 16px;
+  padding-top: 10px;
+}
+.pasta-azul {
+  position: relative;
+  top: -20px;
+  width: 72px;
+  height: 72px;
+}
+.paragrafo-rodape {
+  padding-bottom: 8px;
+  font: #696969;
+  font-weight: bold;
+}
+
+.botao-upgrade {
+  background-color: #4169e1;
+  color: #fff;
+  padding: 6px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 8px;
+}
+
+.conteudo {
+  border: 2px solid #fff;
+  background: linear-gradient(67deg, #ffffff 0%, #dfdfdf 100%);
+  flex: 1;
+  box-sizing: border-box;
+}
+.conteudo-topo {
+  height: 40px;
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.barra-pesquisa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.notificacao {
+  width: 20px;
+  height: 20px;
+}
+
+.sub-menu-cursos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.todos-os-cursos {
+  font-size: 16px;
+  color: darkblue;
+  font-weight: bold;
+}
+.fazendo-favoritos-completos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.opcoes-aluno {
+  padding-left: 20px;
+  font-weight: bold;
+  color: #696969;
+}
+.navegacao-principal {
+  padding: 15px;
+  border: 2px solid rgb(158, 23, 23);
+}
+.ultimo-curso {
+  height: 250px;
+  border: 2px solid #000;
+}
+.penultimo-ultimo {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #4169e1;
+}
+.menores {
+  width: 115px;
+  background-color: rgb(219, 198, 159);
+  height: 250px;
+  border: 2px solid #000;
+}
+
+.menu-usuario {
+  width: 250px;
+  height: 690px;
+  border: 2px solid #000;
+  box-sizing: border-box;
+}
