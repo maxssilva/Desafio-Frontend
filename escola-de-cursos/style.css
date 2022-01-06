@@ -171,21 +171,61 @@ body {
   border: 2px solid rgb(158, 23, 23);
 }
 .ultimo-curso {
+  background-image: url(./images/ux-ui-img.png);
   height: 250px;
-  border: 2px solid #000;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 20px;
+  padding-right: 20px;
 }
-.penultimo-ultimo {
-  padding-top: 20px;
+.topo-ultimo-curso {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.titulo-ultimo-curso {
+  font-size: 20px;
+  color: #dfdfdf;
+  font-weight: bold;
+}
+.duracao-ultimo-curso {
+  font-size: 12px;
+  text-align: right;
+  color: #dfdfdf;
+}
+
+.numero-licoes-ultimo-curso {
+  font-size: 12px;
+  color: #dfdfdf;
+}
+.rodape-ultimo-curso {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  border: 2px solid #4169e1;
+}
+.icon-creator {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.penultimo-ultimo {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 .menores {
-  width: 115px;
-  background-color: rgb(219, 198, 159);
+  width: 45%;
+  background-image: url(./images/piscina-foto.jpg);
   height: 250px;
-  border: 2px solid #000;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .menu-usuario {
